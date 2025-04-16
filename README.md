@@ -15,7 +15,7 @@
 |składowa|zmienna|selektor|
 |--------|-------|--------|
 |opinia|review|div.js_product-review:not(.user-post--highlight)|
-|identyfikator opinii|review_id|['data-entry-id']|
+|identyfikator opinii|Opinion_ID|['data-entry-id']|
 |autor|author|span.user-post__author-name|
 |rekomendacja|recommendation|span.user-post__author-recomendation > em|
 |liczba gwiazdek|stars|span.user-post__score-count|
@@ -26,6 +26,3 @@
 |ile osób uznało opinię za nieprzydatną|unuseful|button.vote-no > span|
 |data wystawienia opinii|post_date|span.user-post__published > time:nth-child(1)['datetime']|
 |data zakupu produktu|purchase_date|span.user-post__published > time:nth-child(2)['datetime']|
-
-
-
